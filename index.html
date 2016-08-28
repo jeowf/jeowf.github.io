@@ -9,7 +9,7 @@
     <meta name="description" content="It's my personal portifolio.">
     <meta name="author" content="Felipe Morais">
 
-    <title>Jeowf's Studio</title>
+    <title>Jeowf</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,15 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <!-- Fav Icons -->
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32.png" sizes="32x32">
+
+    <!-- for IE -->
+    <link rel="icon" type="image/x-icon" href="img/favicons/favicon.ico" >
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicons/favicon.ico"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +40,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index bg-image">
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -41,7 +50,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Jeowf's Studio</a>
+                <a class="navbar-brand" href="#page-top">Jeowf</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,14 +76,14 @@
     </nav>
 
     <!-- Header -->
-    <header class="bg-image">
+    <header >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" >
-                    <img class="img-responsive" src="img/profilev3.png" alt="">
+                    <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Jeowf's Studio</span>
-                        <span class="skills">Graphic Art - Web Design - Other skill</span>
+                        <span class="name">Jeowf</span>
+                        <span class="skills">Graphic  - Web Design - Other skill</span>
                     </div>
                 </div>
             </div>
@@ -82,7 +91,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="white-filter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -155,35 +164,34 @@
     </section>
 
     <!-- About Section -->
-    <section class="success bg-image" id="about">
-        <div class="black-filter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class='inc-space'>
-                            About</h2>
-                        <!-- <hr class="star-light"> -->
-                    </div>
+    <section class="success black-filter" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class='inc-space'>
+                        About</h2>
+                    <!-- <hr class="star-light"> -->
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <!-- <a href="#" class="btn btn-lg btn-outline">
-                            <i class="fa fa-download"></i> Download Theme
-                        </a> -->
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-4">
+                    <img id= "about-img" class="img-responsive " src="img/about.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <p class="page-scroll">Hi, i'm Felipe , a student from Brazil, and i'm using this place to show you a bit of my projects in Graphic Design. If you're wanting more content like this, give a look in my <a href="http://www.jeowf.deviantart.com">personal portifolio</a>. If you need my work, you can <a href="#contact">contact me</a>. </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <!-- <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a> -->
                 </div>
             </div>
         </div>
+        
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="white-filter">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -278,7 +286,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Jeowf's Studio 2016
+                        Copyright &copy; Jeowf 2016
                     </div>
                 </div>
             </div>

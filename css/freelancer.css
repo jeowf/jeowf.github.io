@@ -39,7 +39,7 @@ h6 {
 }
 header {
   text-align: center;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.9);
 }
 header .container {
   padding-top: 100px;
@@ -53,7 +53,7 @@ header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  /*font-weight: 500;*/
+  font-weight: 700;
   font-size: 1.75em;
   letter-spacing: 10px;
 }
@@ -62,9 +62,6 @@ header .intro-text .skills {
   font-weight: 300;
 }
 
-/*header .container img{
-  max-width: 150px;
-}*/
 @media (min-width: 768px) {
   header .container {
     padding-top: 170px;
@@ -76,10 +73,6 @@ header .intro-text .skills {
   header .intro-text .skills {
     font-size: 1.75em;
   }
-
-  /*header .container img{
-    max-width: 300px;
-  }*/
 }
 .navbar-custom {
   background: rgba(0,0,0,0.9);
@@ -164,11 +157,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  padding: 0;
-  color: white;
-}
-section.success div.black-filter{
   padding: 100px 0;
+  color: white;
 }
 @media (max-width: 767px) {
   section {
@@ -289,7 +279,6 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  /*background-color: #233140;*/
   background-color: rgba(0,0,0,0.85);
 }
 .btn-outline {
@@ -484,7 +473,6 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
-
 .bg-image {
   background-image: url(../img/bg.jpg); 
   background-repeat: no-repeat;
@@ -492,7 +480,14 @@ fieldset[disabled] .btn-success.active {
   background-position: center;
   background-size: cover;
 }
-
 .black-filter{
   background-color: rgba(0,0,0,0.4);
+}
+.white-filter{
+  background-color: white;
+}
+
+#about-img{
+  max-width: 150px;
+  margin: auto;
 }
